@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Weather Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .chart-container {
+            width: 90vw;  /* Adjusts to 90% of screen width */
+            max-width: 1000px; /* Prevents it from getting too large */
+            height: 60vh; /* Adjusts height dynamically */
+            margin: auto;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Weather Data (Updated Every 5 minutes)</h1>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRAWemYJpA-VNn2681fP8qqUrfhg2HPFD-1Y3rV6CRhKtlZ-SK-pPKr5-hl93tOwqRHGLS8zN4dZ_Iv/pubchart?oid=231304175&format=interactive" width="800" height="500"></iframe>
+    <h1>Weather Data (Updated Every 5 Minutes)</h1>
+    <div class="chart-container">
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRAWemYJpA-VNn2681fP8qqUrfhg2HPFD-1Y3rV6CRhKtlZ-SK-pPKr5-hl93tOwqRHGLS8zN4dZ_Iv/pubchart?oid=231304175&format=interactive"></iframe>
+    </div>
 </body>
 </html>
