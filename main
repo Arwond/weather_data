@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Weather Data</title>
+</head>
+<body>
+    <h1>Weather Data (Updated Every 5 minutes)</h1>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRAWemYJpA-VNn2681fP8qqUrfhg2HPFD-1Y3rV6CRhKtlZ-SK-pPKr5-hl93tOwqRHGLS8zN4dZ_Iv/pubchart?oid=231304175&format=interactive" width="800" height="500"></iframe>
+</body>
+</html>
